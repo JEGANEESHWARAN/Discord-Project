@@ -19,8 +19,7 @@ header{
     justify-content:space-around ;
 }
 .top{
-    padding: 20px;
-    letter-spacing: 2px;
+    
 }
 .gap{
     display: flex;
@@ -139,14 +138,12 @@ header{
     }
 
     .logo button{
-        flex-grow:;
         display: flex;
         justify-content: center;
         position: relative;
         right: 190px;
         padding: 15px;
         width: 250px;
-
     }
     .logo .bu{
         padding: 30px;
