@@ -75,6 +75,9 @@ header{
     .dis{
         font-size: 20px;
     }
+    .btn{
+        display: none;
+    }
     .bar{
         font-size: 25px;
         display: block;
@@ -124,7 +127,6 @@ header{
 }
 @media(max-width:1000px){
     .btn{
-        display: none;
         align-items: flex-end;
         width: 70px;
         position:absolute;
