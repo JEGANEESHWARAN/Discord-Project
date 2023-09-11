@@ -75,16 +75,8 @@ header{
     .dis{
         font-size: 20px;
     }
-    .btn{
-        display: none;
-        align-items: flex-end;
-        width: 70px;
-        position:absolute;
-        top: 15px;
-        right: 50px;
-    }
     .bar{
-        font-size: 30px;
+        font-size: 25px;
         display: block;
         position:absolute;
         top: 15px;
