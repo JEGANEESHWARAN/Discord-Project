@@ -77,13 +77,13 @@ header{
     }
     .btn{
         position:absolute;
-        top: 20px;
+        top: 15px;
         right: 50px;
     }
     .bar{
         display: block;
         position:absolute;
-        top: 20px;
+        top: 15px;
         right:15px; 
     }
     .showbar{
