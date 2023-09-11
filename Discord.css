@@ -19,7 +19,8 @@ header{
     justify-content:space-around ;
 }
 .top{
-    
+    padding: 20px;
+    letter-spacing: 2px;
 }
 .gap{
     display: flex;
@@ -76,13 +77,13 @@ header{
     }
     .btn{
         position:absolute;
-        top: 23px;
+        top: 20px;
         right: 50px;
     }
     .bar{
         display: block;
         position:absolute;
-        top: 23px;
+        top: 20px;
         right:15px; 
     }
     .showbar{
