@@ -10,6 +10,7 @@
     background-size: cover;
     padding-bottom: 200px;
     background-color: rgb(88, 88, 230);
+    height: 450px;
 }
 header{
     display: flex;
@@ -61,6 +62,10 @@ header{
     display: none;
 }
 @media all and (max-width:830px){
+    .head{
+        margin: auto;
+        max-height: ;
+    }
     header{
         flex-direction: column;
     }
@@ -158,21 +163,35 @@ header{
         position: relative;
         right: 110px;
     }
-    .img{
-        display: none;
-        
-    }
 }
-.img img{
+.img .ss1{
     position: relative;
-    top: -340px;
-    right: -1190px;
-    width: 350px;
+    top: -200px;
+    left: 300px;
+    width: 750px;
     height: 350px;
-    margin: -20px;
-    border-bottom-right-radius: 500px;
-    border-top-right-radius: 500px;
-    object-fit: cover;
+    display: inline;
+}
+.img .ss2{
+    position: relative;
+    top: -200px;
+    right: 300px;
+    width: 750px;
+    height: 350px;
+}
+@media(max-width:856px) {
+    .img{
+        display: flex;
+    }
+    .img .ss1{
+        display: none;
+    }
+    .img .ss2{
+        width: 400px;
+        align-items: center;
+        left: 60px;
+        top: -200px;
+    }
 }
 .bu{
     background-color: rgb(11, 11, 11);
@@ -181,7 +200,7 @@ header{
 .place{
     background-color: rgb(228, 216, 216);
     padding: 80px 10px 200px ; 
-    margin: -170px 15px;
+    margin: 30px 15px;
     border: 2px solid white;
 }
 .place img{
@@ -429,13 +448,10 @@ ul{
     display: flex;
     justify-content: space-between;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1920px){
     html,
     body{
         width: 100%;
-        overflow-x: hidden;
-    }
-    .img{
         overflow-x: hidden;
     }
 }
