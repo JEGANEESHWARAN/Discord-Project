@@ -64,7 +64,8 @@ header{
 @media all and (max-width:830px){
     .head{
         margin: auto;
-        max-height: ;
+        width: 100%;
+        height: auto;        
     }
     header{
         flex-direction: column;
@@ -187,10 +188,12 @@ header{
         display: none;
     }
     .img .ss3{
-        width: 400px;
+        margin: auto;
+        top: 0%;
+        width: 500px;
         align-items: center;
         left: 60px;
-        top: -200px;
+        top: 00px;
     }
 }
 .bu{
@@ -296,7 +299,6 @@ header{
     background-color: rgb(228, 216, 216);
     padding: 80px 10px 200px; 
     margin: 15px 15px;
-    border: 2px solid black;
 }
 .fandom img{
     float: left;
@@ -362,7 +364,6 @@ header{
     .stay p{
         text-align: justify;
         line-height: 1.625;
-
         padding-right: 50px;
     }
 }
@@ -397,7 +398,6 @@ ul{
     display: flex;
     margin-bottom: 20px;
     background-color: black;
-
 }
 .icons-col{
     width: 20%;
