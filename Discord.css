@@ -61,7 +61,7 @@ header{
     cursor: pointer;
     display: none;
 }
-@media all and (max-width:1024px){
+@media all and (max-width:1500px){
     .head{
         margin: auto;
         width: 100%;
@@ -166,23 +166,22 @@ header{
     }
 }
 .img .ss1{
-    position: fixed;
-    top: 250px;
-    right: -300px;
+    position: relative;
+    top: -200px;
+    left: 300px;
     width: 750px;
     height: 350px;
     float: right;
     display: inline;
 }
 .img .ss3{
-    
-    position: fixed;
-    top: 250px;
-    left: -300px;
+    position: relative;
+    top: -200px;
+    right: 300px;
     width: 750px;
     height: 350px;
 }
-@media(max-width:1024px) {
+@media(max-width:1500px) {
     .img{
         display: flex;
     }
@@ -190,13 +189,14 @@ header{
         display: none;
     }
     .img .ss3{
-        position: relative;;
+        display: flex;
+        align-items: center;
         margin: auto;
         top: 0%;
         width: 100%;
         align-items: center;
-        left: 60px;
-        top: 00px;
+        left: 250px;
+        top: 100px;
     }
 }
 .bu{
@@ -458,7 +458,7 @@ ul{
         overflow-x: hidden;
     }
 }
-@media only screen and (max-width: 2600px){
+@media only screen and (max-width: 2990px){
     html,
     body{
         width: 100%;
