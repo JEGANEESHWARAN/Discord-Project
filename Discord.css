@@ -61,7 +61,7 @@ header{
     cursor: pointer;
     display: none;
 }
-@media all and (max-width:830px){
+@media all and (max-width:1024px){
     .head{
         margin: auto;
         width: 100%;
@@ -171,6 +171,7 @@ header{
     left: 300px;
     width: 750px;
     height: 350px;
+    float: right;
     display: inline;
 }
 .img .ss3{
@@ -180,7 +181,7 @@ header{
     width: 750px;
     height: 350px;
 }
-@media(max-width:856px) {
+@media(max-width:1500px) {
     .img{
         display: flex;
     }
@@ -449,6 +450,13 @@ ul{
     justify-content: space-between;
 }
 @media only screen and (max-width: 1920px){
+    html,
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+@media only screen and (max-width: 2600px){
     html,
     body{
         width: 100%;
