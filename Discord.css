@@ -166,22 +166,23 @@ header{
     }
 }
 .img .ss1{
-    position: relative;
-    top: -150px;
-    left: 300px;
+
+    position: absolute;
+    bottom: 150px;
+    right: -300px;
     width: 750px;
     height: 350px;
-    float: right;
-    display: inline;
+    float: left;
+    display: block;
 }
 .img .ss3{
-    position: relative;
-    top: -150px;
-    right: 300px;
+    position: absolute;
+    bottom: 150px;
+    left: -300px;
     width: 750px;
     height: 350px;
 }
-@media(max-width:1500px) {
+@media(max-width:1020px) {
     .img{
         display: flex;
     }
