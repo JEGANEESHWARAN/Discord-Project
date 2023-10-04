@@ -61,7 +61,10 @@ header{
     cursor: pointer;
     display: none;
 }
+@media all and (max-width:1524px){
+}
 @media all and (max-width:1024px){
+
     .head{
         margin: auto;
         width: 100%;
@@ -196,7 +199,22 @@ header{
         width: 100%;
         align-items: center;
         left: 60px;
-        top: 00px;
+}
+@media(max-width:1024px) {
+    .img{
+        display: flex;
+    }
+    .img .ss1{
+        display: none;
+    }
+    .img .ss3{
+        position: relative;
+        margin: auto;
+        top: 0%;
+        width: 100%;
+        align-items: center;
+        left: 60px;
+        top: 100px;
     }
 }
 .bu{
@@ -248,6 +266,16 @@ header{
         margin-top: -80px;
         margin-right: 220px;
         word-spacing: 3px;
+    }
+}
+@media screen and (max-width:600px){
+    .logo button{
+        margin-left:330px;
+        width: 200px;
+    }
+    .logo .bu{
+        margin-right: 10px;
+        display: none;
     }
 }
 .hang{
