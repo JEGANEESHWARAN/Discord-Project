@@ -276,11 +276,9 @@ header{
 }
 .place h3{
     display: flex;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
-    justify-content: center;
-    align-items: center;
-    margin-right: 200px;
+    margin-right: 70px;
 }
 .place p{
     font-size: 25px;
@@ -336,8 +334,7 @@ header{
 }
 .hang{
     background-color: white;
-    padding: 0px 0px 200px; 
-    margin: 170px 5px;
+    margin: 10px 5px 170px;
     border: 2px solid white;
 }
 .hang img{
@@ -347,17 +344,15 @@ header{
     margin-top: 50px;
 }
 .hang h3{
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 700;
-    justify-content: center;
-    align-items: center;
-    padding-left: 30px;
+    padding-left: 50px;
     margin: 150px 0px 0px 0px;
 }
 .hang p{
     font-size: 25px;
     font-weight: 500;
-    padding: 35px;
+    padding: 50px;
     margin: 0px 10px;
 }
 @media(max-width:1024px){
