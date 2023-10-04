@@ -428,6 +428,14 @@ header{
         word-spacing: 3px;
     }
 }
+@media(max-width:600px){
+    .fandom p{
+        margin-top: -80px;
+        margin-right: 20px;
+        word-spacing: 3px;
+        text-align: center;
+    }
+}
 .stay{
     margin-top: 90px;
 }
@@ -452,6 +460,18 @@ header{
         text-align: justify;
         line-height: 1.625;
         padding-right: 50px;
+    }
+}
+@media(max-width:600px){
+    .stay h2{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 0px;
+    }
+    .stay p{
+        text-align: center;
+        line-height: 1.625;
+        padding-right: 20px;
     }
 }
 .ready{
