@@ -247,11 +247,17 @@ header{
     .logo p{
         text-align: justify;
         margin-left: 10px;
-        font-size: 25px;
+        font-size: 20px;
     }
     .logo button{
         width: 230px;
         margin-left: 350px;
+    }
+    .logo button:hover{
+            background-color: blue;
+            border: none;
+            color: #ffffff;
+            box-shadow: 0 0 20px blue;
     }
     .logo .bu{
         display: none;
@@ -362,7 +368,8 @@ header{
         padding-bottom: 100px;
     }
     .hang img{
-        width: 100%;
+        width: 550px;
+        margin-left: 100px;
     }
     .hang h3{
         margin: 80px 10px;
@@ -463,17 +470,19 @@ header{
 }
 .stay p{
     text-align: center;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 700;
     margin: 50px;
 }
 @media(max-width:1024px){
     .stay h2{
+        font-size: 40px;
         display: flex;
         justify-content: flex-start;
         padding-left: 40px;
     }
     .stay p{
+        font-size: 18px;
         text-align: justify;
         line-height: 1.625;
         padding-right: 50px;
@@ -481,13 +490,14 @@ header{
 }
 @media(max-width:600px){
     .stay h2{
+        font-size: 23px;
         display: flex;
         justify-content: flex-start;
         padding-left: 0px;
     }
     .stay p{
         text-align: center;
-        font-size: 25px;
+        font-size: 18px;
         line-height: 1.625;
         padding-right: 20px;
     }
@@ -573,6 +583,16 @@ ul{
     color: #ffffff;
     display: flex;
     justify-content: space-between;
+}
+.sign button{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: aqua;
+}
+.sign i{
+    padding: 13px;
+    font-size: 20px;
 }
 @media only screen and (max-width: 1920px){
     html,
