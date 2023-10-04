@@ -61,7 +61,7 @@ header{
     cursor: pointer;
     display: none;
 }
-@media all and (max-width:1024px){
+@media all and (max-width:1500px){
     .head{
         margin: auto;
         width: 100%;
@@ -94,6 +94,9 @@ header{
     .showbar{
         display: block;
     }
+}
+@media screen and (max-width:1500px){
+
 }
 .btn:hover{
     color: skyblue;
@@ -198,10 +201,50 @@ header{
         left: 60px;
         top: 00px;
     }
+}@media(max-width:1500px) {
+    .img{
+        display: flex;
+    }
+    .img .ss1{
+        display: none;
+    }
+    .img .ss3{
+        position: relative;
+        margin: auto;
+        top: 0%;
+        width: 100%;
+        left: 60px;
+        top: 100px;
+    }
+}
+@media(max-width:600px) {
+    .img{
+        display: flex;
+    }
+    .img .ss1{
+        display: none;
+    }
+    .img .ss3{
+        position: relative;
+        margin: auto;
+        top: 0%;
+        width: 100%;
+        left: -110px;
+        top: 100px;
+    }
 }
 .bu{
     background-color: rgb(11, 11, 11);
     color: white;
+}
+@media(max-width:600px) {
+    .logo button{
+        width: 230px;
+        margin-left: 350px;
+    }
+    .logo .bu{
+        display: none;
+    }
 }
 .place{
     background-color: rgb(228, 216, 216);
@@ -250,6 +293,28 @@ header{
         word-spacing: 3px;
     }
 }
+@media(max-width:600px){
+    .place{
+        margin: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+    .place img{
+        margin-left: 35px;
+        width: 450px;
+    
+    }
+    .place h3{
+        margin: 80px 50px;
+    }
+    .place p{
+        margin-top: -80px;
+        margin-right: 20px;
+        word-spacing: 3px;
+        text-align: center;
+    }
+}
 .hang{
     background-color: white;
     padding: 0px 0px 200px; 
@@ -284,10 +349,7 @@ header{
         padding-bottom: 100px;
     }
     .hang img{
-        display: flex;
-        justify-content: center;
-        width: 300px;
-        align-items: center;
+        width: 100%;
     }
     .hang h3{
         margin: 80px 10px;
@@ -296,6 +358,28 @@ header{
         margin-top: -80px;
         margin-right: 220px;
         word-spacing: 3px;
+    }
+}
+@media(max-width:600px){
+    .hang{
+        margin: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+    .hang img{
+        width: 450px;
+        margin-left: 100px;
+    }
+    .hang h3{
+        margin: 80px 10px;
+    }
+    .hang p{
+        margin-top: -80px;
+        margin-left: 100px;
+        margin-right: 100px;
+        word-spacing: 3px;
+        text-align: center;
     }
 }
 .fandom{
