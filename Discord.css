@@ -131,7 +131,7 @@ header{
     border-radius: 50px;
     cursor: pointer;
 }
-@media(max-width:1060px){
+@media(max-width:1500px){
     .btn{
         align-items: flex-end;
         width: 70px;
@@ -143,6 +143,7 @@ header{
         display: flex;
         justify-content: center;
         padding-left: 20px;
+        
     }
     .logo p{
         display: flex;
@@ -198,11 +199,11 @@ header{
         margin: auto;
         top: 0%;
         width: 100%;
-        left: 60px;
+        left: 0px;
         top: 100px;
     }
 }
-@media(max-width:650px) {
+@media(max-width:400px) {
     .img{
         display: flex;
     }
@@ -214,7 +215,6 @@ header{
         margin: auto;
         top: 0%;
         width: 100%;
-        left: -110px;
         top: 100px;
     }
 }
@@ -237,7 +237,7 @@ header{
     }
     .logo button{
         width: 230px;
-        margin-left: 350px;
+        left: 0px;
     }
     .logo button:hover{
             background-color: blue;
@@ -264,15 +264,19 @@ header{
     display: flex;
     font-size: 45px;
     font-weight: 700;
-    margin-right: 70px;
+    margin-right: 250px;
 }
 .place p{
     font-size: 25px;
     font-weight: 500;
     padding: 50px;
     margin-right: 20px;
+    
 }
-@media(max-width:1024px){
+.place img{
+    margin-left: 200px;
+}
+@media(max-width:1524px){
     .place{
         margin: 0%;
         display: flex;
@@ -282,7 +286,7 @@ header{
     .place img{
         display: flex;
         justify-content: center;
-        width: 500px;
+        width: 100%;
         align-items: center;
     }
     .place h3{
@@ -295,7 +299,30 @@ header{
         word-spacing: 3px;
     }
 }
-@media(max-width:500px){
+@media(max-width:1024px){
+    .place{
+        margin: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 100px;
+    }
+    .place img{
+        display: flex;
+      margin-left:60px ;
+        width: 500px;
+        
+    }
+    .place h3{
+        margin: 80px 50px;
+    }
+    .place p{
+        font-size: 19px;
+        margin-top: -80px;
+        margin-right: 20px;
+        word-spacing: 3px;
+    }
+}
+@media(max-width:400px){
     .place{
         margin: 0%;
         display: flex;
@@ -304,18 +331,18 @@ header{
     }
     .place img{
         margin-left: 3px;
-        width: 450px;
+        width: 370px;
     
     }
     .place h3{
-        margin: 80px 50px;
-        font-size: 35px;
+        margin: 60px 20px;
+        font-size: 30px;
     }
     .place p{
 
         font-size: 18px;
         margin-top: -80px;
-        margin-right: 20px;
+        margin-right: 0px;
         word-spacing: 3px;
         text-align: justify;
     }
