@@ -145,6 +145,8 @@ header{
         padding-left: 20px;
     }
     .logo p{
+        display: flex;
+        flex-wrap: wrap;
         margin-left: 70px;
         text-align: center;
         padding: 20px;
@@ -183,23 +185,8 @@ header{
     width: 750px;
     height: 350px;
 }
-@media(max-width:1024px) {
-    .img{
-        display: flex;
-    }
-    .img .ss1{
-        display: none;
-    }
-    .img .ss3{
-        position: relative;
-        margin: auto;
-        top: 0%;
-        width: 100%;
-        align-items: center;
-        left: 60px;
-        top: 00px;
-    }
-}@media(max-width:1500px) {
+
+@media(max-width:1500px) {
     .img{
         display: flex;
     }
@@ -242,6 +229,8 @@ header{
         font-size: 60px;
     }
     .logo p{
+        display: flex;
+        flex-wrap: wrap;
         text-align: justify;
         margin-left: 10px;
         font-size: 20px;
@@ -302,11 +291,11 @@ header{
     .place p{
         font-size: 19px;
         margin-top: -80px;
-        margin-right: 220px;
+        margin-right: 20px;
         word-spacing: 3px;
     }
 }
-@media(max-width:600px){
+@media(max-width:500px){
     .place{
         margin: 0%;
         display: flex;
@@ -314,19 +303,21 @@ header{
         padding-bottom: 100px;
     }
     .place img{
-        margin-left: 35px;
+        margin-left: 3px;
         width: 450px;
     
     }
     .place h3{
         margin: 80px 50px;
+        font-size: 35px;
     }
     .place p{
+
         font-size: 18px;
         margin-top: -80px;
         margin-right: 20px;
         word-spacing: 3px;
-        text-align: center;
+        text-align: justify;
     }
 }
 .hang{
@@ -369,11 +360,11 @@ header{
     .hang p{
         font-size: 19px;
         margin-top: -80px;
-        margin-right: 220px;
+        margin-right: 20px;
         word-spacing: 3px;
     }
 }
-@media(max-width:600px){
+@media(max-width:500px){
     .hang{
         margin: 0%;
         display: flex;
@@ -390,10 +381,10 @@ header{
     .hang p{
         font-size: 18px;
         margin-top: -80px;
-        margin-left: 100px;
-        margin-right: 100px;
+        margin-left: 10px;
+        margin-right: 10px;
         word-spacing: 3px;
-        text-align: center;
+        text-align: justify;
     }
 }
 .fandom{
@@ -439,11 +430,15 @@ header{
     .fandom p{
         font-size: 18px;
         margin-top: -80px;
-        margin-right: 220px;
+        margin-right: 20px;
         word-spacing: 3px;
     }
 }
-@media(max-width:600px){
+@media(max-width:500px){
+    .fandom img{
+        margin-left: 20px;
+        width: 400px;
+    }
     .fandom p{
         font-size: 18px;
         margin-top: -80px;
@@ -480,15 +475,14 @@ header{
         padding-right: 50px;
     }
 }
-@media(max-width:600px){
+@media(max-width:500px){
     .stay h2{
         font-size: 23px;
         display: flex;
         justify-content: flex-start;
-        padding-left: 0px;
     }
     .stay p{
-        text-align: center;
+        text-align: justify;
         font-size: 18px;
         line-height: 1.625;
         padding-right: 20px;
