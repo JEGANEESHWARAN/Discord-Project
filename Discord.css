@@ -307,9 +307,8 @@ header{
     }
     .place img{
         display: flex;
-      margin-left:60px ;
+        margin-left:60px ;
         width: 500px;
-        
     }
     .place h3{
         margin: 80px 50px;
