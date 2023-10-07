@@ -346,17 +346,6 @@ header{
         animation-timing-function: view() ;
     }
 }
-@keyframes fade{
-    from{
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-    0%{
-        opacity: 0;
-    }
-}
 .hang{
     background-color: white;
     margin: 10px 5px 170px;
