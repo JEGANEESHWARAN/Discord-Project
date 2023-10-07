@@ -153,7 +153,6 @@ header{
         padding: 20px;
         margin-right: 89px;
     }
-
     .logo button{
         display: flex;
         justify-content: center;
@@ -328,23 +327,35 @@ header{
         display: flex;
         flex-wrap: wrap;
         padding-bottom: 100px;
+      
     }
     .place img{
         margin-left: 3px;
         width: 370px;
-    
     }
     .place h3{
         margin: 60px 20px;
         font-size: 30px;
     }
     .place p{
-
         font-size: 18px;
         margin-top: -80px;
         margin-right: 0px;
         word-spacing: 3px;
         text-align: justify;
+        animation: fade linear;
+        animation-timing-function: view() ;
+    }
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+    0%{
+        opacity: 0;
     }
 }
 .hang{
